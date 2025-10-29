@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+  body{
+      background-color:#e7f9e7b8;
+      font-family: Arial,Helvetica,Sans-Serif;
+      color:green;
+  }
+  h1#principal{
+      background-color:green;
+      text-align:center;
+      color: white;
+  }
+  h1{ color:darkgreen;}
+  .basico{
+      color: Yellow ;
+  }
+  .intermediario{
+      color: orange;
+  }
+  .avancado{
+      color:red;
+  }
+  .destaque{
+      background-color:lightgreen;
+  }

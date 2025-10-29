@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Midias em HTML5</title>
+    <link rel="icon" type="image/x-icon" href="logo-csss.png">
+     <img src="logo-css.png" alt="logo-css">
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir essas imagens em diferentes, ou simplesmente aumente a dimensão ou diminui o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px)"srcset="imagens/phone.png"type="image/png">
+        <source media="(max-width:1050px)"srcset="imagens/tablet.png"type="image/png">
+        <img src="imagens/pc.png" alt="imagem-flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>vamos reproduzir alguns áudios HTML5</p>
+    <audio src="midia/fernando.mp3"controls autoplay></audio>
+    <audio src="midia/audio.mp3"controls autoplay></audio
+    >
+    <h2>Outras formas de adicionar audio</h2>
+    <p>Agora vamos reproduzir alguns áudios HTML5</p>
+    <audio preload="metadata" autoplay controls >
+        <source src="midia/fernando.mp3" type="audio/mpeg">
+        <source src="midia/fernando.ogg" type="audio/ogg">
+        <source src="midia/fernando.wav" type="audio/wav">
+     <p> infelizmente o seu navegador nao consegue reproduzir o arquivo <a href="media/fernando.mp3">clique aqui para fazer o <strong>download </strong>do arquivomp3</a></p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulario07</title>
+</head>
+<body>
+     <h1>Exemplo de Formulário</h1>
+     <form action="cadastro.php" method="get">
+       <p>
+         <label for="iest">Estado</label>
+         <select name="estado" id="iest">
+           <option value="BR">Beira</option>
+           <option value="MP">Maputo</option>
+           <option value="Ns">Niassa</option>
+           <option value="QL">Quelimane</option>
+           <option value="TE">Tete</option>
+           <option value="NP">Nampula</option>
+           <option value="ZM">Zambézia</option>
+           <option value="CD">Cabo-Delgado</option>
+         </select>
+       </p>
+       <p>
+         <label for="iproficao">Profição</label>
+         <input type="text" name="proficao" id="iproficao" list="lstproficao">
+         <datalist id="lstproficao" >
+           <option value="ADM">Administrador</option>
+           <option value="CT">Contabilista</option>
+           <option value="Br">Banqueiro</option>
+           <option value="PF">Professor</option>
+           <option value="ST">Secretario</option>
+         </datalist>
+       </p>
+       <p>
+         <label for="mensagem:">Mensagem</label><br>
+         <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+       </p>
+       <p>
+         <input type="submit" value="Enviar">
+         <input type="reset" value="Limpar">
+       </p>
+     </form>
+</body>
+</html>

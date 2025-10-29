@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tp-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulario01</title>
+  <style>
+    body{
+      font-family: Arial,Helvetica,Sans-Serif;
+      background-image: linear-gradient(to left,#0080006a,#ffff005d);
+    }
+    p.submit{
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+   <h1>Meu Primeiro Formulario</h1>
+   <form action="cadastro.php" method="post" autocomplete="off">
+     <p><label for="inome">Nome:</label> <input type="text" name="nome"
+     id="inome" required minlength="5"maxlength="10"></p>
+     <p><label for="isobrenome">Sobrenome: </label><input type="text"n
+     name="sobrenome" id="isobrenome" required maxlength="10"></p>
+     <p class="submit"><input type="submit" value="Enviar"></p>
+   </form>
+</body>
+</html>
